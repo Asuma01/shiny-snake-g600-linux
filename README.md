@@ -58,6 +58,16 @@ The app finds the G600 by its USB serial identity (`0525:a4a7`). Use **Refresh
 from Display** to load the saved video list and storage values. Uploading an
 MP4 adds it to the list; select it and click **Play Selected** to start it.
 
+### MP4 video resolution
+
+Use a **480 × 1920 pixel** video (**width × height**, portrait orientation)
+encoded as **H.264 in an MP4 file**. This is the format we have tested playing
+on the G600. A 5-second sample played successfully, but 5 seconds is not a
+required duration. The app uploads the file as supplied; it does not resize
+or convert videos. Other resolutions and codecs have not been verified and
+may upload without playing correctly. The 480 × 1920 figure describes the
+tested *video file*, not a confirmed physical pixel count for the display.
+
 If the screen
 is connected but the app reports a permission error, the local system needs
 access to that USB serial device. `70-g600-display.rules` is an optional rule
