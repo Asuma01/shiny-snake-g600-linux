@@ -1,5 +1,10 @@
 # G600 Display for Linux — RC1
 
+**[Download the app bundle (one x86-64 file)](https://github.com/Asuma01/shiny-snake-g600-linux/releases/download/v0.1.0-rc1/G600-Display-for-Linux-rc1-x86_64.tar.gz)**
+
+Extract the download and run `G600-Display-for-Linux`. This is a portable app,
+so there is no separate installer.
+
 This is the first public test candidate for the Shiny Snake G600 11.3-inch USB
 case display on modern AMD and Intel x86-64 Linux desktops. It is an
 independent, unofficial project. The original app code is available in this
