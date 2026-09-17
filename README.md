@@ -1,5 +1,15 @@
 # G600 Display for Linux — release candidate
 
+## Download the app
+
+**[Download G600 Display for Linux RC1 (x86-64)](https://github.com/Asuma01/shiny-snake-g600-linux/releases/download/v0.1.0-rc1/G600-Display-for-Linux-rc1-x86_64.tar.gz)**
+
+This is one download containing the standalone app and its required notices.
+Extract it, then open `G600-Display-for-Linux` to run the app. It does not need
+installation, Python, FFmpeg, or additional codecs. See the
+[RC1 release page](https://github.com/Asuma01/shiny-snake-g600-linux/releases/tag/v0.1.0-rc1)
+for the checksum and release notes.
+
 An unofficial controller for the Shiny Snake G600 11.3-inch USB case display.
 It uploads MP4 videos, lists the display's stored videos, controls playback,
 shows storage usage, sets brightness, clears the screen, and restarts the
