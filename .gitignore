@@ -1,0 +1,8 @@
+.build-venv/
+.build-tools/
+build/
+dist/
+__pycache__/
+*.pyc
+.uuid
+.pytest_cache/

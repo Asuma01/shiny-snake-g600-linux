@@ -1,0 +1,2 @@
+# Optional local-seat access for the G600 CDC ACM serial interface.
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0525", ATTRS{idProduct}=="a4a7", TAG+="uaccess"
