@@ -66,8 +66,9 @@ ARM, musl-based distributions, and legacy releases are outside the target.
 After building and extracting the executable into `dist/`, run
 `./package-release.sh`. It creates a versioned archive and a matching SHA-256
 file in `dist/`. The archive contains the executable, tester instructions,
-the MIT license and its scope, third-party notices, the optional USB permission rule, and the unmodified
-FFmpeg source archive.
+the MIT license and its scope, third-party notices, the optional per-user
+shortcut installer, the USB permission rule, the project logo, and the
+unmodified FFmpeg source archive.
 
 Check the archive from an empty directory by extracting it, running
 `sha256sum -c SHA256SUMS` inside the extracted folder, and using

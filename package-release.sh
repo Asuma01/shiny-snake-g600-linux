@@ -3,7 +3,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-name=G600-Display-for-Linux-rc1-x86_64
+name=G600-Display-for-Linux-rc2-x86_64
 binary=dist/G600-Display-for-Linux-ubuntu22-x86_64
 ffmpeg_source=dist/ffmpeg-9.0.1.tar.xz
 
@@ -21,6 +21,8 @@ package="$staging/$name"
 mkdir "$package"
 
 install -m 755 "$binary" "$package/G600-Display-for-Linux"
+install -m 755 install-user.sh "$package/"
+install -m 644 assets/g600-display-linux-final.png "$package/g600-display-linux.png"
 install -m 644 README.md LICENSE LICENSE_SCOPE.md THIRD_PARTY_NOTICES.md \
     70-g600-display.rules "$package/"
 install -m 644 "$ffmpeg_source" "$package/"

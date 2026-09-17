@@ -2,12 +2,12 @@
 
 ## Download the app
 
-**[Download G600 Display for Linux RC1 (x86-64)](https://github.com/Asuma01/shiny-snake-g600-linux/releases/download/v0.1.0-rc1/G600-Display-for-Linux-rc1-x86_64.tar.gz)**
+**[Download G600 Display for Linux RC2 (x86-64)](https://github.com/Asuma01/shiny-snake-g600-linux/releases/download/v0.1.0-rc2/G600-Display-for-Linux-rc2-x86_64.tar.gz)**
 
 This is one download containing the standalone app and its required notices.
 Extract it, then open `G600-Display-for-Linux` to run the app. It does not need
 installation, Python, FFmpeg, or additional codecs. See the
-[RC1 release page](https://github.com/Asuma01/shiny-snake-g600-linux/releases/tag/v0.1.0-rc1)
+[RC2 release page](https://github.com/Asuma01/shiny-snake-g600-linux/releases/tag/v0.1.0-rc2)
 for the checksum and release notes.
 
 An unofficial controller for the Shiny Snake G600 11.3-inch USB case display.
@@ -37,6 +37,22 @@ your file manager. If your file manager asks whether to run the file, choose
 chmod +x G600-Display-for-Linux
 ./G600-Display-for-Linux
 ```
+
+### Optional logo shortcut
+
+To add the app to your application menu and create a shortcut with the project
+logo, open a terminal in the extracted folder and run:
+
+```sh
+./install-user.sh
+```
+
+This installs a copy for your user account without administrator privileges.
+It also puts `G600 Display for Linux.desktop` beside the extracted executable.
+You can move that shortcut anywhere; it points to the installed app and logo.
+The original executable in the extracted folder keeps its generic file icon.
+Some file managers may ask you to trust or allow launching the shortcut the
+first time you open it.
 
 The app finds the G600 by its USB serial identity (`0525:a4a7`). Use **Refresh
 from Display** to load the saved video list and storage values. Uploading an

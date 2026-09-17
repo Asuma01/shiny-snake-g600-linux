@@ -1,11 +1,12 @@
-# G600 Display for Linux — RC1
+# G600 Display for Linux — RC2
 
-**[Download the app bundle (one x86-64 file)](https://github.com/Asuma01/shiny-snake-g600-linux/releases/download/v0.1.0-rc1/G600-Display-for-Linux-rc1-x86_64.tar.gz)**
+**[Download the app bundle (one x86-64 file)](https://github.com/Asuma01/shiny-snake-g600-linux/releases/download/v0.1.0-rc2/G600-Display-for-Linux-rc2-x86_64.tar.gz)**
 
-Extract the download and run `G600-Display-for-Linux`. This is a portable app,
-so there is no separate installer.
+Extract the download and run `G600-Display-for-Linux`. Optionally run
+`./install-user.sh` from the extracted folder to install a per-user app menu
+entry and a movable shortcut with the project logo. No root access is needed.
 
-This is the first public test candidate for the Shiny Snake G600 11.3-inch USB
+This is a test candidate for the Shiny Snake G600 11.3-inch USB
 case display on modern AMD and Intel x86-64 Linux desktops. It is an
 independent, unofficial project. The original app code is available in this
 repository under MIT; artwork and bundled components retain separate terms
@@ -22,7 +23,7 @@ described in `LICENSE_SCOPE.md`.
 
 ## Download and run
 
-Download `G600-Display-for-Linux-rc1-x86_64.tar.gz` and its matching `.sha256`
+Download `G600-Display-for-Linux-rc2-x86_64.tar.gz` and its matching `.sha256`
 file from this release. Extract the archive and run `G600-Display-for-Linux`.
 The archive contains full instructions, third-party notices, and the source
 archive for the bundled FFmpeg executable. No separate Python, FFmpeg, or
